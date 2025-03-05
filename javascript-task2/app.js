@@ -3,7 +3,7 @@
 Parametr olaraq üç ədəd qəbul edən və konsolda ən böyüyünü göstərən bir funksiya tərtib edin.
 Fərqli arqumentlərlə funksiyanı üç dəfə çağırın */
 
-function Big(n1,n2,n3){
+const Big = (n1,n2,n3) =>{
     let mesaj = "";
      if(n1 > n2 && n1 > n3){
       mesaj = `${n1} ededi ${n2} ve ${n3} boyukdur`;

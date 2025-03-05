@@ -1,7 +1,7 @@
 /*Mətni parametri kimi qəbul edən
  və bu mətndəki herflerin sayını qaytaran numCounter funksiyasını yazın. */
 
-function numCounter(metin){
+let numCounter = (metin) =>{
     let say = 0
     for(let i = 0; i < metin.length ; i++){
        say++;

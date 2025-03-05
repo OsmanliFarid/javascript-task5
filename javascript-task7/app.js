@@ -2,7 +2,7 @@
 Bir ədədi parametr kimi qəbul edən və cüt olduqda true, 
 tək olduqda isə false qaytaran isEven () funksiyasını yazın. */
 
-function isEven(Number){
+const isEven = (Number) =>{
     let mesaj = "";
       if(Number % 2 === 0){
         mesaj = true;

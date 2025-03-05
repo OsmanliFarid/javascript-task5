@@ -3,7 +3,7 @@ Task-11
 İstifadəçidən bir ədəd daxil etməsini tələb edən və rəqəmin 
 mükəmməl və ya mükəmməl olmadığını bildirən bir proqram yazın. (if-else ilə) */
 
-function num(){
+const num = () =>{
     let number = +prompt("reqem daxil et");
     let cem = 0;
     let mesaj = "";

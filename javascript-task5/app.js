@@ -2,7 +2,7 @@
 bu riyazi əməliyyatın nəticəsini qaytaran calc funksiyasını yazın.
 Məsələn, calc(4, 6, '+');  //  10 qaytaracaq */
 
-function calc(e1,e2,o){
+const calc = (e1,e2,o) =>{
     let mesaj = "";
     if(o === "+"){
         mesaj = `${e1 + e2}`;

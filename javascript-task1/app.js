@@ -6,9 +6,10 @@ Task-01
 Funksiyanı 3 müxtəlif ad üçün çağırın.
 */
 
-function StartName (name){
+const StartName =  (name) =>{
     console.log(`${name} is active now`)
 }
 StartName("Amir")
 StartName("Elgun")
 StartName("Ayten")
+

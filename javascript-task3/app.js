@@ -6,7 +6,7 @@ Tutaq ki, müştərinin rubl hesabında 1200 rubl, dollar hesabında isə 20 dol
 Bir dollar üçün məzənnə 75 rubl təşkil edir. 
 Bu halda, funksiya belə mesaj göstərməlidir: Bütün depozitlər üzrə məbləğ: 2700 rubl. */
 
-function valy(){
+const valy = () =>{
     let rubl = +prompt("rubl daxil edin");
     let dollar = +prompt("dollar daxil edin");
     let dollar_qiymeti = 75;

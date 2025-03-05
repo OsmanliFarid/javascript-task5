@@ -1,7 +1,7 @@
 /*Task-10
 İstifadəçidən rəqəm qəbul edən və onun müsbət, 
 mənfi və ya sıfır olduğunu yoxlayan bir funksiya yazın. (if-else ilə) */
-function num(){
+const num = () =>{
      let number = +prompt("reqem daxil et");
      let mesaj = ""
      if(number > 0){

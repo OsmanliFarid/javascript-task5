@@ -5,7 +5,7 @@ parametr olaraq hər şey daxil edə bilərəm.Funksiya, əgər daxil edilən
 parametr integerdirsə true deyilsə false qaytarsın.
 */
 
-function inInteger(){
+const inInteger = () =>{
     let num = +prompt("reqem daxil et");
     let mesaj = "";
     if(num % 1 === 0){

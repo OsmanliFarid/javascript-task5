@@ -3,7 +3,7 @@ Task-14
 İstifadəçidən bir söz daxil etməsini tələb edən və bu sözün 
 palindrom olub olmadığını yoxlayan bir proqram yazın. (funksiya, dövr və if-else ilə) */
 
-function String(){
+const String = () =>{
     let metin = prompt("metin daxil et");
     let mesaj = "";
     let newMesaj = "" 
