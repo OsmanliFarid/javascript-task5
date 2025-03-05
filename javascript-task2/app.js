@@ -4,15 +4,23 @@ Parametr olaraq üç ədəd qəbul edən və konsolda ən böyüyünü göstər�
 Fərqli arqumentlərlə funksiyanı üç dəfə çağırın */
 
 function Big(n1,n2,n3){
-    let mesaj = ""
-     if(n1 < n2 && n3){
-        console.log(`${n1} ededi boyukdur`)
-     }else if(n2 > n1 && n3){
-        console.log(`${n2} ededi boyukdur`)
-     }else if(n3 > n2 && n1){
-        console.log(`${n3} ededi boyukdur`)
-     }
+    let mesaj = "";
+     if(n1 > n2 && n1 > n3){
+      mesaj = `${n1} ededi ${n2} ve ${n3} boyukdur`;
+     }else if(n2 > n1 && n2 > n3){
+        mesaj = `${n2} ededi ${n3} ve ${n1} boyukdur`;
+     }else{
+        mesaj = `${n3} ededi ${n1} ve ${n2} boyukdur`;
+     };
+     return mesaj;
 }
 
-Big(170,60,145)
+const a = Big(40,45,340)
+const b = Big(399,24,405)
+const c = Big(300,900,200)
+console.log(a)
+console.log(b)
+console.log(c)
+
+
 
