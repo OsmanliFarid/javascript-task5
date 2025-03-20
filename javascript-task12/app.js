@@ -54,4 +54,6 @@ const ayGunSayisi = (ay) => {
 };
 
 
-console.log(ayGunSayisi(ay_daxil));
+const a = ayGunSayisi
+console.log(a);
+
