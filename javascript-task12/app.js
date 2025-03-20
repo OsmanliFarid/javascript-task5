@@ -55,3 +55,4 @@ const ayGunSayisi = (ay) => {
 
 
 console.log(ayGunSayisi(ay_daxil));
+log
