@@ -54,6 +54,6 @@ const ayGunSayisi = (ay) => {
 };
 
 
-const a = ayGunSayisi
+const a = ayGunSayisic
 console.log(a);
 
